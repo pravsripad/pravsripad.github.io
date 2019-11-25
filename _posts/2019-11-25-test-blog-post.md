@@ -1,7 +1,7 @@
 ---
 title: 'Hello blogging my old friend.'
 date: 2019-11-25
-permalink: /posts/2019/11/blog-post-1/
+permalink: /posts/blog-post-1/
 tags:
   - init
 ---

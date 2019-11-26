@@ -3,6 +3,7 @@ layout: post
 title: "Using a scaffold post."
 author: "Praveen Sripad"
 date: 2019-11-26 01:21:14
+permalink: /posts/blog-post-2
 tags:
 - init
 ---

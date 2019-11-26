@@ -178,7 +178,7 @@ collections:
   teaching:
     output: false
     permalink: /:collection/:path/
-  publications:
+  Publications:
     output: true
     permalink: /:collection/:path/
   portfolio:
@@ -197,7 +197,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: false
       share: false

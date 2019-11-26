@@ -92,7 +92,7 @@ echo "---" >> $filename
 echo "layout: $layout" >> $filename
 echo "title: \"$title\"" >> $filename
 echo "author: \"$author\"" >> $filename
-echo "permalink: \"$filename\"" >> $filename
+echo "permalink: /posts/$filename/" >> $filename
 echo "date: `date +%F\ %H:%M:%S`" >> $filename
 
 

@@ -89,11 +89,12 @@ echo $filename
 
 ########## Adding to file ##########
 echo "---" >> $filename
-echo "layout: $layout" >> $filename
+# echo "layout: $layout" >> $filename
 echo "title: \"$title\"" >> $filename
-echo "author: \"$author\"" >> $filename
+# echo "author: \"$author\"" >> $filename
 echo "permalink: /posts/$filename/" >> $filename
-echo "date: `date +%F\ %H:%M:%S`" >> $filename
+echo "date: `date +%F`" >> $filename
+# echo "date: `date +%F\ %H:%M:%S`" >> $filename
 
 
 ### Adding tags on new lines with a dash in front (separated with comma)

@@ -8,6 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-My personal website.
-
-I am exploring the world of jekyll and the beauty of static sites. This is still under development, please bear with me.
+This is my personal website. 

@@ -83,10 +83,10 @@ author:
   name             : "Praveen Sripad"
   avatar           : "my_public_picture.jpg"
   bio              : "I'm an engineer and a neuroscientist interested in the human brain and the human condition."
-  location         : ""
+  location         : 
   employer         :
-  pubmed           : ""
-  googlescholar    : ""
+  pubmed           : 
+  googlescholar    : 
   email            :
   researchgate     : "https://www.researchgate.net/profile/Praveen_Sripad/" # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :

@@ -8,7 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-As a researcher working in the field of neuroimaging, I am interested in systems neuroscience approaches to understanding the functional brain. Currently I use M/EEG to study activity and connectivity in the human brain in the resting state. 
+Research interests
+1. systems neuroscience approaches to understand functional interactions in the human brain
+2. M/EEG signal processing and data analysis
+3. reproducibility in neuroimaging, open science data & metadata management
 
-I am working towards my PhD under the supervision of Dr. Jürgen Dammers and Prof. N. J. Shah at the Institute of Neuroscience and Medicine (INM-4), Forschungszentrum Jülich, Germany.
-
+My path so far:
+- I worked towards my PhD in the [MEG group](https://www.fz-juelich.de/inm/inm-4/DE/Forschung/MEG-Physik/_node.html) under the supervision of Dr. Jürgen Dammers and Prof. N. J. Shah at the Institute of Neuroscience and Medicine (INM-4), Forschungszentrum Jülich, Germany.
+- Currently working in the Neural Circuits and Cognition Lab at the [Max Planck Institute of Empirical Aesthetics](https://www.aesthetics.mpg.de/en.html), Frankfurt/Main, Germany. 

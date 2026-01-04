@@ -72,7 +72,7 @@ author:
   orcid            : "https://orcid.org/0000-0001-6361-2571"
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   wikipedia        :
-  pgp              : "pgp.asc"
+  pgp              : "https://pravsripad.in/.well-known/pgp.asc"
 
 # Reading Files
 include:

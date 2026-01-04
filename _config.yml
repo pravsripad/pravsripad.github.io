@@ -20,32 +20,32 @@ words_per_minute         : 160
 future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
-comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
-  disqus:
-    shortname            :
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+# comments:
+#   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+#   disqus:
+#     shortname            :
+#   discourse:
+#     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+#   facebook:
+#     appid                :
+#     num_posts            : # 5 (default)
+#     colorscheme          : # "light" (default), "dark"
+# staticman:
+#   allowedFields          : ['name', 'email', 'url', 'message']
+#   branch                 : "gh-pages" # "master", "gh-pages"
+#   commitMessage          : "New comment."
+#   filename               : comment-{@timestamp}
+#   format                 : "yml"
+#   moderation             : true
+#   path                   : "_data/comments/{options.slug}"
+#   requiredFields         : ['name', 'email', 'message']
+#   transforms:
+#     email                : "md5"
+#   generatedFields:
+#     date:
+#       type               : "date"
+#       options:
+#         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
@@ -72,6 +72,7 @@ author:
   orcid            : "https://orcid.org/0000-0001-6361-2571"
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   wikipedia        :
+  pgp              : "https://pravsripad.in/pgp.asc"
 
 # Reading Files
 include:

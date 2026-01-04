@@ -9,17 +9,17 @@ author_profile: true
 
 [Adversarial testing of global neuronal workspace and integrated information theories of consciousness.](https://doi.org/10.1038/s41586-025-08888-1)<br>
 Cogitate Consortium et al.<br>
-Nature (2025).
+Nature (2025)
 
- [Open multi-center intracranial electroencephalography dataset with task probing conscious visual perception.](https://doi.org/10.1038/s41597-025-04833-z)<br>
- Seedat, A., Lepauvre, A., Jeschke, J. et al.<br>
- Nature Scientific Data (2025).
+[Open multi-center intracranial electroencephalography dataset with task probing conscious visual perception.](https://doi.org/10.1038/s41597-025-04833-z)<br>
+Seedat, A., Lepauvre, A., Jeschke, J. et al.<br>
+Nature Scientific Data (2025)
 
 **2021**
 
 [Conflict processing networks: A directional analysis of stimulus-response compatibilities using MEG.](https://doi.org/10.1371/journal.pone.0247408)<br>
 Rosenberg J, Dong Q, Florin E, **Sripad P**, Boers F, Reske M, et al. <br>
-PLoS One. (2021).
+PLoS One. (2021)
 
 **2020**
 

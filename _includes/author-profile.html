@@ -121,6 +121,10 @@
       {% if author.pgp %}
       <li><a href="{{ author.pgp }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> PGP Key</a></li>
       {% endif %}
+      {% if author.fingerprint %}
+      <li><a href="{{ author.fingerprint }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> PGP Fingerprint</a></li>
+      {% endif %}
+
     </ul>
   </div>
 </div>

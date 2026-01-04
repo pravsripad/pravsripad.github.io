@@ -73,6 +73,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   wikipedia        :
   pgp              : "https://pravsripad.in/.well-known/pgp.asc"
+  fingerprint      : "34E3 BF1A 7690 C5B0 A895 1A5C 9550 A4F1 ECB9 468B"
 
 # Reading Files
 include:

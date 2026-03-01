@@ -48,7 +48,7 @@
 .masthead__brand {
   display: flex;
   align-items: center;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 1.1em;
   line-height: 1;
   margin-right: 1.5rem;
@@ -62,7 +62,7 @@
 .masthead__links {
   display: flex;
   align-items: center;
-//   gap: 1.25rem;
+  gap: 1.25rem;
   flex: 1;
   justify-content: flex-start;
   margin-left: 0;
@@ -79,8 +79,8 @@
   align-items: left;
   list-style-type: none;
   justify-content: flex-start;
-  font-weight: 700;
-  font-size: 1.1em;
+  font-weight: normal;
+  font-size: 1em;
   margin-bottom: 0;
 
   &--lg {

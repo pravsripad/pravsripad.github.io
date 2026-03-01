@@ -8,8 +8,6 @@ locale: kn
 ref: publications
 ---
 
-ನನ್ನ ಕೆಲವು ಪ್ರಕಟಣೆಗಳು:
-
 **2025**
 
 [Adversarial testing of global neuronal workspace and integrated information theories of consciousness.](https://doi.org/10.1038/s41586-025-08888-1)<br>

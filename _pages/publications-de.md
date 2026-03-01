@@ -1,12 +1,14 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
+title: "Publikationen"
+permalink: /de/publikationen/
 author_profile: true
-lang: en
-locale: en
+lang: de
+locale: de
 ref: publications
 ---
+
+Eine Auswahl meiner wissenschaftlichen Arbeiten:
 
 **2025**
 

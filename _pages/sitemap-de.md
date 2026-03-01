@@ -1,18 +1,18 @@
 ---
 layout: archive
-title: "Sitemap"
-permalink: /sitemap/
+title: "Seitenübersicht"
+permalink: /de/seitenplan/
 author_profile: true
-lang: en
-locale: en
+lang: de
+locale: de
 ref: sitemap
 ---
 
 {% include base_path %}
 
-A list of all the posts and pages found on the site. For you robots out there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
+Eine Liste aller Beiträge und Seiten auf dieser Website. Für Crawler gibt es auch eine [XML-Version]({{ base_path }}/sitemap.xml).
 
-<h2>Pages</h2>
+<h2>Seiten</h2>
 {% for post in site.pages %}
   {% include archive-single.html %}
 {% endfor %}

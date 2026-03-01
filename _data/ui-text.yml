@@ -48,6 +48,48 @@ en-GB:
 en-AU:
   <<: *DEFAULT_EN
 
+# German
+# -----------------
+de: &DEFAULT_DE
+  page                       : "Seite"
+  pagination_previous        : "Zurück"
+  pagination_next            : "Weiter"
+  breadcrumb_home_label      : "Startseite"
+  breadcrumb_separator       : "/"
+  toc_label                  : "Auf dieser Seite"
+  ext_link_label             : "Direkter Link"
+  less_than                  : "weniger als"
+  minute_read                : "Minuten Lesezeit"
+  share_on_label             : "Teilen"
+  meta_label                 : "Metadaten"
+  tags_label                 : "Stichworte:"
+  categories_label           : "Kategorien:"
+  date_label                 : "Veröffentlicht:"
+  comments_label             : "Kommentar hinterlassen"
+  comments_title             : "Kommentare"
+  more_label                 : "Mehr erfahren"
+  related_label              : "Vielleicht interessiert dich auch"
+  follow_label               : "Folgen:"
+  feed_label                 : "Feed"
+  powered_by                 : "Bereitgestellt von"
+  website_label              : "Webseite"
+  email_label                : "E-Mail"
+  recent_posts               : "Aktuelle Beiträge"
+  undefined_wpm              : "Parameter words_per_minute ist nicht in _config.yml definiert"
+  comment_form_info          : "Deine E-Mail-Adresse wird nicht veröffentlicht. Pflichtfelder sind markiert"
+  comment_form_comment_label : "Kommentar"
+  comment_form_md_info       : "Markdown wird unterstützt."
+  comment_form_name_label    : "Name"
+  comment_form_email_label   : "E-Mail-Adresse"
+  comment_form_website_label : "Webseite (optional)"
+  comment_btn_submit         : "Kommentar senden"
+  comment_btn_submitted      : "Gesendet"
+  comment_success_msg        : "Danke für deinen Kommentar! Er erscheint nach der Freigabe."
+  comment_error_msg          : "Leider gab es einen Fehler. Bitte prüfe die Pflichtfelder und versuche es erneut."
+  loading_label              : "Wird geladen..."
+de-DE:
+  <<: *DEFAULT_DE
+
 # Spanish
 # --------------
 es: &DEFAULT_ES
@@ -179,6 +221,48 @@ tr: &DEFAULT_TR
   loading_label              :
 tr-TR:
   <<: *DEFAULT_TR
+
+# Kannada
+# -----------------
+kn: &DEFAULT_KN
+  page                       : "ಪುಟ"
+  pagination_previous        : "ಹಿಂದಿನದು"
+  pagination_next            : "ಮುಂದಿನದು"
+  breadcrumb_home_label      : "ಮುಖಪುಟ"
+  breadcrumb_separator       : "/"
+  toc_label                  : "ಈ ಪುಟದಲ್ಲಿ"
+  ext_link_label             : "ನೇರ ಲಿಂಕ್"
+  less_than                  : "ಕಡಿಮೆ"
+  minute_read                : "ನಿಮಿಷದ ಓದು"
+  share_on_label             : "ಹಂಚಿಕೊಳ್ಳಿ"
+  meta_label                 : "ಮಾಹಿತಿ"
+  tags_label                 : "ಟ್ಯಾಗ್‌ಗಳು:"
+  categories_label           : "ವರ್ಗಗಳು:"
+  date_label                 : "ಪ್ರಕಾಶಿತ ದಿನಾಂಕ:"
+  comments_label             : "ಪ್ರತಿಕ್ರಿಯೆ ನೀಡಿ"
+  comments_title             : "ಪ್ರತಿಕ್ರಿಯೆಗಳು"
+  more_label                 : "ಇನ್ನಷ್ಟು ಓದಿ"
+  related_label              : "ಇನ್ನೂ ಓದಲು"
+  follow_label               : "ಅನುಸರಿಸಿ:"
+  feed_label                 : "ಫೀಡ್"
+  powered_by                 : "ಸಹಯೋಗದಲ್ಲಿ"
+  website_label              : "ವೆಬ್‌ಸೈಟ್"
+  email_label                : "ಇಮೇಲ್"
+  recent_posts               : "ಇತ್ತೀಚಿನ ಬರಹಗಳು"
+  undefined_wpm              : "_config.yml ನಲ್ಲಿ words_per_minute ಕಾಣಿಸಲಿಲ್ಲ"
+  comment_form_info          : "ನಿಮ್ಮ ಇಮೇಲ್ ಪ್ರಕಟವಾಗುವುದಿಲ್ಲ. ಅಗತ್ಯ ಕ್ಷೇತ್ರಗಳನ್ನು ಗುರುತಿಸಲಾಗಿದೆ."
+  comment_form_comment_label : "ಪ್ರತಿಕ್ರಿಯೆ"
+  comment_form_md_info       : "ಮಾರ್ಕ್‌ಡೌನ್ ಬೆಂಬಲಿತವಾಗಿದೆ."
+  comment_form_name_label    : "ಹೆಸರು"
+  comment_form_email_label   : "ಇಮೇಲ್ ವಿಳಾಸ"
+  comment_form_website_label : "ವೆಬ್‌ಸೈಟ್ (ಐಚ್ಛಿಕ)"
+  comment_btn_submit         : "ಕಳುಹಿಸಿ"
+  comment_btn_submitted      : "ಕಳುಹಿಸಲಾಗಿದೆ"
+  comment_success_msg        : "ಧನ್ಯವಾದಗಳು! ಪರಿಶೀಲನೆಯ ನಂತರ ಇದು ತೋರಿಸುತ್ತದೆ."
+  comment_error_msg          : "ದೋಷವಾಯಿತು. ಅಗತ್ಯ ಕ್ಷೇತ್ರಗಳನ್ನು ಪೂರೈಸಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  loading_label              : "ಲೋಡ್ ಆಗುತ್ತಿದೆ..."
+kn-IN:
+  <<: *DEFAULT_KN
 
 # Brazilian Portguese
 # -----------------

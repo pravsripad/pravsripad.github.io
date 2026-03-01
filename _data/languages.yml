@@ -1,0 +1,13 @@
+---
+- code: en
+  label: EN
+  name: English
+  locale: en-US
+- code: de
+  label: DE
+  name: Deutsch
+  locale: de-DE
+- code: kn
+  label: KN
+  name: ಕನ್ನಡ
+  locale: kn-IN

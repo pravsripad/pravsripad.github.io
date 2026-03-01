@@ -1,0 +1,30 @@
+{% include base_path %}
+{% assign available_languages = site.data.languages %}
+{% assign current_lang = include.current_lang | default: page.lang | default: site.default_lang %}
+{% assign current_ref = page.ref %}
+{% assign default_home = site.pages | where: "ref", "about" | where: "lang", site.default_lang | first %}
+
+<div class="lang-switcher" role="navigation" aria-label="Language selector">
+  {% for language in available_languages %}
+    {% assign lang_code = language.code %}
+    {% assign translation = nil %}
+    {% if current_ref %}
+      {% assign translation = site.pages | where: "ref", current_ref | where: "lang", lang_code | first %}
+    {% endif %}
+    {% if translation %}
+      {% assign target_url = translation.url %}
+    {% else %}
+      {% assign fallback_home = site.pages | where: "ref", "about" | where: "lang", lang_code | first %}
+      {% assign target_url = fallback_home.url | default: default_home.url | default: "/" %}
+    {% endif %}
+    {% if target_url contains 'http' %}
+      {% assign target_base = '' %}
+    {% else %}
+      {% assign target_base = base_path %}
+    {% endif %}
+    <a class="lang-switcher__link{% if lang_code == current_lang %} is-active{% endif %}"
+       href="{{ target_base }}{{ target_url | default: '/' }}">
+       <span class="sr-only">Switch to {{ language.name }}</span>{{ language.label }}
+    </a>
+  {% endfor %}
+</div>

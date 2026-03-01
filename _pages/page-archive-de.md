@@ -1,10 +1,10 @@
 ---
 layout: archive
-title: "Page Archive"
-permalink: /page-archive/
+title: "Seitenarchiv"
+permalink: /de/seitenarchiv/
 author_profile: false
-lang: en
-locale: en
+lang: de
+locale: de
 ref: page-archive
 ---
 

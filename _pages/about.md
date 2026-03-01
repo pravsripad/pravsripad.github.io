@@ -2,6 +2,9 @@
 permalink: /
 title: "About me"
 author_profile: true
+lang: en
+locale: en
+ref: about
 redirect_from: 
   - /about/
   - /about.html

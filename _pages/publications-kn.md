@@ -1,10 +1,10 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
+title: "ಪ್ರಕಟನೆಗಳು"
+permalink: /kn/prakatane/
 author_profile: true
-lang: en
-locale: en
+lang: kn
+locale: kn
 ref: publications
 ---
 

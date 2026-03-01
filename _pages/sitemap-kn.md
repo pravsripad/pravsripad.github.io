@@ -1,18 +1,18 @@
 ---
 layout: archive
-title: "Sitemap"
-permalink: /sitemap/
+title: "ಸೈಟ್ ನಕ್ಷೆ"
+permalink: /kn/sitemap/
 author_profile: true
-lang: en
-locale: en
+lang: kn
+locale: kn
 ref: sitemap
 ---
 
 {% include base_path %}
 
-A list of all the posts and pages found on the site. For you robots out there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
+ವೆಬ್‌ಸೈಟ್‌ನ ಎಲ್ಲಾ ಬರಹಗಳು ಮತ್ತು ಪುಟಗಳ ಪಟ್ಟಿ. ಬಾಟ್‌ಗಳಿಗೆ [XML ರೂಪ]({{ base_path }}/sitemap.xml) ಸಹ ಲಭ್ಯವಿದೆ.
 
-<h2>Pages</h2>
+<h2>ಪುಟಗಳು</h2>
 {% for post in site.pages %}
   {% include archive-single.html %}
 {% endfor %}

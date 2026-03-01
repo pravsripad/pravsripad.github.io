@@ -1,10 +1,10 @@
 ---
 layout: archive
-title: "Page Archive"
-permalink: /page-archive/
+title: "ಪುಟ ಸಂಗ್ರಹ"
+permalink: /kn/page-archive/
 author_profile: false
-lang: en
-locale: en
+lang: kn
+locale: kn
 ref: page-archive
 ---
 

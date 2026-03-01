@@ -61,7 +61,7 @@ de: &DEFAULT_DE
   less_than                  : "weniger als"
   minute_read                : "Minuten Lesezeit"
   share_on_label             : "Teilen"
-  meta_label                 : "Metadaten"
+  meta_label                 :
   tags_label                 : "Stichworte:"
   categories_label           : "Kategorien:"
   date_label                 : "Veröffentlicht:"
@@ -235,7 +235,7 @@ kn: &DEFAULT_KN
   less_than                  : "ಕಡಿಮೆ"
   minute_read                : "ನಿಮಿಷದ ಓದು"
   share_on_label             : "ಹಂಚಿಕೊಳ್ಳಿ"
-  meta_label                 : "ಮಾಹಿತಿ"
+  meta_label                 :
   tags_label                 : "ಟ್ಯಾಗ್‌ಗಳು:"
   categories_label           : "ವರ್ಗಗಳು:"
   date_label                 : "ಪ್ರಕಾಶಿತ ದಿನಾಂಕ:"

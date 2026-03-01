@@ -1,0 +1,21 @@
+# <repo>/.codex/config.toml
+
+# Only allow actions inside the workspace sandbox
+sandbox_mode = "workspace-write"
+
+# Require approvals by default (keeps you in the loop on risky actions)
+[approval_policy]
+mode = "on-request"
+
+# Hard stop: never allow expanding the sandbox (prevents access outside workspace,
+# including $HOME and its dotfiles, even if a prompt tries to convince it).
+[approval_policy.reject]
+sandbox_approval = true
+
+# Keep network off for local command execution
+[sandbox.workspace_write]
+network_access = false
+
+# Optional: disable web search tool entirely (reduces exposure to prompt injection via browsing)
+[tools]
+web_search = "disabled"
